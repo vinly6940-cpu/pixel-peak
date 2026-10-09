@@ -1,0 +1,112 @@
+style.css
+
+h1{font-size:40px;}
+h1{color:gold;font-size:40px ;text-shadow:2px 2xp 5px #555;}
+body {
+            background-color:black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 15px 30px;     }
+
+            nav{margin: 50px ; }
+
+            nav a {
+                color: whitesmoke;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+            } 
+            nav a:hover {color:gold(235, 204, 32); }
+
+            nav a {
+                color: whitesmoke;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+            }
+
+            nava a:hover {color:gold; }
+            
+            button {
+                background-color: black ;
+                color: white;
+                border: none;
+                padding: 15px 30px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            nav{display:flex;justify-content:space-between;align-items: center;}
+            h1 {color:#d4af37; text-align: center; text-shadow: 1px 1px 3px black;}
+
+            section{padding:30px;margin: 20px;border:2px solid gold; box-shadow:0 0 15px gold;border-radius: 15px;}
+            .hero{ text-align:center;padding:60px 20px;
+            }
+            .hero h2{color:gold;font-size:35px;margin-bottom:15;
+            }
+
+            .hero button {
+                background-color: gold;
+                color: black;
+                border: none;
+                padding: 12px 25px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            
+            .services {text-align:center;padding:50px 20px;}
+
+            .services h2 {color:gold;font-size:35px;margin-bottom:30px;}
+
+            .services-box {border: 2px solid gold; padding: 20px; margin: 20px auto;max-width:500px;border-radius: 10px;
+            }   
+            .services-box h3 {color:gold;}
+            .services-box p {font-size:16px;}
+            
+            .services-box {border:2px solid gold; padding:25px;
+            margin: 20px auto; max-width:500px; border-radius : 12px;}
+        
+            .services-box h3 {color:gold;
+            font-size:24px;margin-bottom: 10px;} 
+            .services-box p {font-size:16px;line-height:1.6;}
+             .package {text-align:center;padding:50px 20px;}
+             .package h2 {color:gold;font-size:35px;margin-bottom:30px;}
+             .package-box {border: 2px solid gold; padding: 20px; margin: 20px auto;max-width:500px;border-radius: 10px;}
+             .package-box h3 {color:gold; font-size:24px;
+             }
+             .price { font-size:24px; font-weight:bold;}
+             .package-box button {background-color: gold; color: black; border: none; padding: 12px 22px; border-radius:8px ;cursor: pointer;
+                }
+                .about{text-align:center;padding:50px 20px;
+                max-width:800px;margin:  auto;}
+                .about h2 {color:gold;font-size:35px;margin-bottom:20px;}
+                .about p {font-size:17px;line-height:1.7;}  
+
+                .contact{text-align:center;padding:50px 20px;}
+                .contact h2 {color:gold;font-size:25px}
+                .contact p{font-size :17px;margin: bottom 25px;}
+                .contact-button {display:inline-block;background-color:gold;color:black;text-decoration:none;padding:12px 25px;border-radius:8px;font-weight:bold; }
+                
+                .quote{text-align:center;padding:50px 20px;}
+                .quote h2 {color:gold;font-size:35px;margin-bottom:25px;}
+                .quote form {max-width:500px;margin: auto;}
+                .quote input, .quote textarea {width:100%;box-sizing:border-box;padding:12px;margin:8px 0;border:1px solid #ccc;border-radius:8px;font-size:16px;}
+                .quote textarea {min-height: 140px;resize: vertical;}
+                .quote button {background-color: gold;color: black;border: none;padding: 12px 25px;border-radius:8px;cursor: pointer;font-size:16px;}
+                @media (max-width : 600px) {.hero h2
+                .services h2, .package h2, .about h2, .contact h2, .quote h2 {font-size:28px;} 
+                .hero, .services, .package, .about, .contact, .quote {padding: 30px 15px;}
+                .services-box, .package-box { width: auto;}
+                .contact-button{display:block;margin:10px auto;max-width:250px; }
+                } */button hover effects */
+                .hero button:hover, .services-box button:hover, .package-box button:hover, .contact-button:hover, .quote button:hover {transform: scale(1.05);transition:0.2s; }
+
+                .hero-tagline {color:gold;font-size:14px;letter-spacing:3px;font-weight:bold;margin-bottom:20px;}
+
+                .hero-button{background-color: white;color:black;transform:scale(1.05);}
+
+                .section-divider {border:none;border-top:1x solid gold;margin:0 10%;}
+                
+                
+                
+                

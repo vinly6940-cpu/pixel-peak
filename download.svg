@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel Peak social logo</title>
+  <desc id="desc">A gold isometric cube with pixels rising from its upper-right corner on a black background.</desc>
+  <rect width="1024" height="1024" rx="220" fill="#08090B"/>
+  <g fill="none" stroke="#D7B45A" stroke-width="30" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M512 248 730 370 512 494 294 370Z"/>
+    <path d="M294 370v260l218 126V494"/>
+    <path d="M730 370v260L512 756"/>
+    <path d="m512 494 218-124"/>
+  </g>
+  <g fill="#F4D783">
+    <rect x="765" y="274" width="66" height="66" rx="8"/>
+    <rect x="849" y="202" width="48" height="48" rx="6"/>
+    <rect x="798" y="143" width="34" height="34" rx="5"/>
+    <rect x="886" y="302" width="32" height="32" rx="5"/>
+  </g>
+</svg>
